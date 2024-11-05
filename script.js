@@ -3,7 +3,7 @@ const games = [
   {
     name: "RocoBlox",
     description: "Rocoblox is a great game to play with your friends! Play multiple games!",
-    image: "img/20241105211653.jpg", // Change to 'image'
+    image: "images/IMG_2823.jpeg", // Change to 'image'
     url: "https://s.julianseditor.com/6YMxMO"
   },
   {
