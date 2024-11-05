@@ -1,16 +1,16 @@
 // Sample game data with the updated structure
 const games = [
   {
-    "name": "RocoBlox",
-    "description": "Rocoblox is a great game to play with your friends! Play multiple games!",
-    "imageUrl": "/images/IMG_2823.jpeg",
-    "url": "https://s.julianseditor.com/6YMxMO"
+    name: "RocoBlox",
+    description: "Rocoblox is a great game to play with your friends! Play multiple games!",
+    image: "/images/IMG_2823.jpeg", // Change to 'image'
+    url: "https://s.julianseditor.com/6YMxMO"
   },
   {
-    "name": "Animals & Invaders",
-    "description": "Get ready for an action packed game involving running away from aliens whose entire goal is to eliminate you (Parkour). ",
-    "imageUrl": "/images/IMG_2824.jpeg",
-    "url": "https://s.julianseditor.com/PJr8ro"
+    name: "Animals & Invaders",
+    description: "Get ready for an action packed game involving running away from aliens whose entire goal is to eliminate you (Parkour).",
+    image: "/images/IMG_2824.jpeg", // Change to 'image'
+    url: "https://s.julianseditor.com/PJr8ro"
   }
 ];
 // Function to create a game card dynamically
