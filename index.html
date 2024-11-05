@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Better ForYou (JE)</title>
+    <style>
+        /* Reset and base styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Helvetica Neue", "Arial", sans-serif; /* Discord-like font */
+        }
+
+        body {
+            background-color: #2f3136; /* Dark background */
+            color: #dcddde; /* Light text color */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            min-height: 100vh; /* Full height */
+        }
+
+        header {
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            background-color: #202225; /* Darker header */
+            color: #ffffff; /* White text */
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        header h1 {
+            font-size: 1.5em;
+        }
+
+        .announcement {
+            background-color: #5b2e83; /* Purple background */
+            color: white;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            font-size: 1.2em;
+            z-index: 10;
+            border-radius: 8px;
+        }
+
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 800px;
+            margin-top: 20px;
+            overflow: auto;
+        }
+
+        .game-card {
+            background-color: #40444b;
+            border-radius: 8px;
+            margin: 10px;
+            width: 100%;
+            max-width: 600px;
+            color: #dcddde;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer; /* Makes the whole card clickable */
+            transition: transform 0.2s ease;
+        }
+
+        .game-card img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .game-card h2 {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #b9bbbe;
+        }
+
+        .game-card p {
+            margin-top: 10px;
+        }
+
+        .game-card:hover {
+            transform: scale(1.02); /* Hover effect */
+        }
+
+        .game-card a {
+            display: none; /* Hide link since entire card will be clickable */
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Better ForYou (JE)</h1>
+        <p>Discover new games randomly</p>
+    </header>
+
+    <div class="announcement">
+        <p>Ads Will Be Showing Here Soon..</p>
+    </div>
+
+    <div class="game-container" id="game-container">
+        <!-- Dynamic content will be inserted here -->
+    </div>
+
+    <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
