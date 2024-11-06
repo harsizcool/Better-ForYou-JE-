@@ -1,25 +1,25 @@
 // Sample game data with the updated structure
 const games = [
   {
-    title: 'Rocoblox',
+    name: 'Rocoblox',
     description: `Rocoblox is a great game to play with your friends! Play multiple games!`,
     image: 'images/IMG_2823.jpeg',
     url: 'https://s.julianseditor.com/6YMxMO'
   },
   {
-    title: 'Animals And Invaders',
+    name: 'Animals And Invaders',
     description: `Animals and invaders is a great game about escaping the aliens that try to stop you, in an amazing parkour game.`,
     image: 'images/IMG_2824.jpeg',
     url: 'https://s.julianseditor.com/PJr8ro'
   },
   {
-    title: 'Better Frontpage',
+    name: 'Better Frontpage',
     description: `Clear the cringy front page and get games without any bias!`,
     image: 'images/IMG_2828.jpeg',
     url: 'https://s.julianseditor.com/6YMxVL'
   },
   {
-    title: 'BMI Calculator',
+    name: 'BMI Calculator',
     description: `Who knew you can now track your BMI in Julian's Editor! Calculate your BMI instantly.`,
     image: 'images/IMG_2829.jpeg',
     url: 'https://s.julianseditor.com/6rxdpR'
