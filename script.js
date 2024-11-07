@@ -72,4 +72,6 @@ window.addEventListener('scroll', () => {
     }
 });
 
-loadRandom();
+for (let i = 0; i < 3; i++) { // more cards load at start so it works on pc!
+    loadRandom();
+}
