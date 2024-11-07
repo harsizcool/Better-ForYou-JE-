@@ -5,30 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Better ForYou (JE)</title>
     <style>
-        /* Reset and base styles */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: "Helvetica Neue", "Arial", sans-serif; /* Discord-like font */
+            font-family: Arial, sans-serif;
         }
 
         body {
-            background-color: #2f3136; /* Dark background */
-            color: #dcddde; /* Light text color */
+            background-color: #2f3136;
+            color: #dcddde;
             display: flex;
             flex-direction: column;
             align-items: center;
             padding: 20px;
-            min-height: 100vh; /* Full height */
+            min-height: 100vh;
         }
 
         header {
             width: 100%;
             padding: 20px;
             text-align: center;
-            background-color: #202225; /* Darker header */
-            color: #ffffff; /* White text */
+            background-color: #202225;
+            color: #ffffff;
             margin-bottom: 20px;
             border-radius: 8px;
         }
@@ -38,7 +37,7 @@
         }
 
         .announcement {
-            background-color: #5b2e83; /* Purple background */
+            background-color: #5b2e83;
             color: white;
             padding: 10px;
             width: 100%;
@@ -69,7 +68,7 @@
             color: #dcddde;
             padding: 20px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            cursor: pointer; /* Makes the whole card clickable */
+            cursor: pointer;
             transition: transform 0.2s ease;
         }
 
@@ -91,11 +90,11 @@
         }
 
         .game-card:hover {
-            transform: scale(1.02); /* Hover effect */
+            transform: scale(1.02);
         }
 
         .game-card a {
-            display: none; /* Hide link since entire card will be clickable */
+            display: none;
         }
 
     </style>
@@ -112,9 +111,9 @@
     </div>
 
     <div class="game-container" id="game-container">
-        <!-- Dynamic content will be inserted here -->
+        <!-- Dont edit here (any collaborators), heres the dynamic content from script.js -->
     </div>
 
-    <script src="script.js"></script> <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
 </body>
 </html>
